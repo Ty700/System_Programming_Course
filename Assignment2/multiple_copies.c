@@ -1,9 +1,42 @@
-
 /*
+*Objective: Write a C program named multiple_copies that copies the contents of a source file to two specified destination files.
+*
+*Build Instructions:
+*gcc multiple_copies.c -o multiple_copies
+*
+*
+*Run Instructions:
+*
+*./multiple_copies source_file destination_file1 destination_file2
+*
+*Example:
+*
+*./multiple_copies input.txt copy1.txt copy2.txt
+*
+*Requirements:
+*
+*   Input Arguments: The program should accept three command-line arguments:
+*       source_file: The file whose contents need to be copied.
+*       destination_file1: The first file where the contents will be copied to.
+*       destination_file2: The second file where the contents will be copied to.
+*   Argument Count Check: The program should check if exactly three arguments (excluding the program name) are provided. If not, it should display the following error message:
+*
+*   Usage: multiple_copies source_file destination_file1 destination_file2
+*
+*    Source File Existence Check: Before attempting to copy, the program should check if the source_file exists. If it doesn't, display an error message:
+*
+*    Opening Error!: [source_file_name]
+*
+*    Replace [source_file_name] with the actual name of the source file provided.
+*    Destination File Overwrite: If either of the destination files already exists, the program should overwrite its contents without any prompt.
+*
+*Turn in your source code files. Include your name in a comment at the top of the source code.
+*
 * Is it the most efficent way?
 * Prob not. But I have a migraine and just trying to survive right now
 */
 
+//Tyler Scotti
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdio.h>
