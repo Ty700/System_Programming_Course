@@ -1,3 +1,6 @@
+#Tyler Scotti
+#9/25/23
+
 from getOperator import getOperator
 from blank import clear
 from arthmeticWork import doWork
