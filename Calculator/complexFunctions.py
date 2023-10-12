@@ -56,4 +56,5 @@ def getBase():
     while(base <= 0):
         print("Invalid Option")
         base = int(input("Enter in the base: "))
+        
     return base
