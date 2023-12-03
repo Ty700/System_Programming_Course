@@ -1,0 +1,5 @@
+total 12
+-rw-rw-r-- 1 tyler tyler 1225 Dec  1 22:48 command_runner.py
+-rw-rw-r-- 1 tyler tyler    0 Dec  1 22:48 lsout.txt
+drwxrwxr-x 2 tyler tyler 4096 Dec  1 22:48 __pycache__
+-rw-rw-r-- 1 tyler tyler  629 Dec  1 22:48 test.py
